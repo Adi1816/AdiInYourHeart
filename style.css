@@ -44,7 +44,8 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--bg-color);
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
     display: flex;
     justify-content: space-between;
     align-items: center;
